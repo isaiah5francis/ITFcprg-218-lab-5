@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>587 VINTAGE</title>
+</head>
+<body>
+    <section class="hero-banner">
+        <h1>587 VINTAGE</h1>
+        <p>Calgaries Hottest Vintage & Appearal Shop</p>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Shop</a></li>
+            <li><a href="index.html">About Us</a></li> 
+          </ul>
+        </section>
+
+    <section class="cardcontainer">
+        <h2>Hot Items</h2>
+        <div class="card">
+            <img src="images/tshirt.jpg" alt="Baggy white tshirt">
+        
+            <div class="card-content">
+                <h4><b>T-Shirt 1</b></h4>
+                <p>Baggy White Tee</p>
+                <button>View Now</button>
+            </div>
+        </div>
+  
+        <div class="card">
+            <img src="images/tshirt.jpg" alt="Slim white tshirt">
+
+            <div class="card-content">
+                <h4><b>T-Shirt 2</b></h4>
+                <p>Slim White Tee</p>
+                <button>View Now</button>
+            </div>
+        </div>
+  
+        <div class="card">
+            <img src="images/tshirt.jpg" alt="Regular white tshirt">
+
+            <div class="card-content">
+                <h4><b>T-Shirt 3</b></h4>
+                <p>Regular White Tee</p>
+                <button>View Now</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="accordian">
+        <div class="content">
+            <h2>Stand Out In The Crowd With The Best Style.</h2>
+
+            <button class="accordionbutton">What do we specialize in?</button>
+           
+            <div class="panel">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius nobis, omnis praesentium consectetur et quis laborum porro animi sequi dolorum, perferendis atque in vel cum officia optio ipsam beatae autem!</p>
+            </div>
+            
+            <button class="accordion">What makes us a leading vintage and apparel store?</button>
+            
+            <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus vel, porro reprehenderit necessitatibus culpa et officia nostrum. Eius dignissimos impedit, ex unde quibusdam iusto eveniet suscipit, quae praesentium aut recusandae.</p>
+            </div>
+            
+            <button class="accordion">How did we get started?</button>
+            
+            <div class="panel">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus numquam vero cupiditate, ea incidunt animi laborum natus? Delectus beatae perspiciatis fuga, porro dolorem veritatis, deleniti laudantium nesciunt repudiandae reprehenderit vero!</p>
+            </div>
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;    
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+             var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+                 }
+              });
+            }
+</script>
+    </div>
+    </section>
+
+<footer>© 2024 | 587 VINTAGE | All rights reserved.</footer>
+
+</body>
+</html>
