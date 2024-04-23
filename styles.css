@@ -191,3 +191,9 @@ footer {
   text-decoration: none;
   color: rgb(149, 149, 149);
 }
+
+.productImg {
+  scale: 85%;
+  margin: 0px;
+
+}
