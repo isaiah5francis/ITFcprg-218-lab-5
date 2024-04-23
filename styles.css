@@ -8,9 +8,12 @@ nav, a {
     font-family: "Lilita One", sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 25px;
+    text-size-adjust: initial;
     text-decoration-style: none;
-    color: black;
+    color: rgb(255, 255, 255);
     text-align: center;
+    margin: 12px;
 }
 
 .card, button {
@@ -19,11 +22,13 @@ nav, a {
 }
 
 h1, h2 {
-    align-items: center;
-    text-align: center;
-    font-family: "Lilita One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+  font-size: 50px;
+  align-items: center;
+  text-align: center;
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 12px;
 }
 
 h3, h4, p, footer, button {
@@ -32,6 +37,7 @@ h3, h4, p, footer, button {
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+
 }
 
 /* Hero Banner */
