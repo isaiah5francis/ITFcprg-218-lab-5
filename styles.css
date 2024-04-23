@@ -13,13 +13,6 @@ nav, a {
     text-align: center;
 }
 
-nav, {
-    display: inline;
-    text-align: center;
-    align-items: center;
-    padding: 50px; 
-}
-
 .card, button {
     align-items: center;
     text-align: center;
