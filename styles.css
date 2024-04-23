@@ -36,7 +36,7 @@ h3, h4, p, footer, button {
 
 /* Hero Banner */
 .hero-banner {
-    background: url(images/headerimage.png) center / cover no-repeat;
+    background: url(photos/headerimage.jpg) center / cover no-repeat;
     color: #ffffff;
     padding: 50px 0;
     margin-bottom: 15px;
