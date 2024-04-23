@@ -48,6 +48,9 @@ h3, h4, p, footer, button {
     margin-bottom: 15px;
     text-shadow: rgb(0, 0, 0) 4px 0 5px;
 }
+.hero-banner, p {
+  font-size: 30px;
+}
 
 /* Cards */
 .cardcontainer {
@@ -60,8 +63,8 @@ h3, h4, p, footer, button {
     font-size: 20px;
     margin: 0 auto;
     max-width: 920px;
+    
 }
-
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
@@ -120,20 +123,55 @@ h3, h4, p, footer, button {
 /* Accordian */
 .accordion {
     background-color: #f0f0f0;
-    color: #515151;
+    color: #050505;
     cursor: pointer;
     padding: 18px;
     width: 100%;
     border: none;
-    text-align: left;
+    text-align: center;
     outline: none;
     font-size: 18px;
     transition: background-color 0.3s ease;
 }
+
+.accordion, p {
+  font-size: 20px;
+}
+
+button {
+  font-size: 15px;
+  background-color: grey;
+  color: white;
+  font-style: italic;
+}
+
 .content {
     text-align: center;
     margin: 20px;
     padding: 25px;
+}
+
+.active, .accordion:hover {
+  background-color: #00000042;
+  border: 1px solid #000000;
+}
+
+.panel {
+  padding: 0 18px;
+  font-size: 18px;
+  background-color: #00000042;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+/* Video */
+.video {
+  background-color: #f9f9f9;
+  margin: 0px 0;
+  text-align: center;
+  align-items: center;
+  display: grid;
 }
 
 /* Footer */
@@ -145,4 +183,15 @@ footer {
     font-size: 14px;
   }
 
-  
+  /* About Me */
+  img {
+    width: 50%;
+    height: 50%;
+    align-items: center;
+  }
+
+.buyButton {
+  color: purple;
+  background-color: rgb(201, 201, 201);
+  text-decoration: none;
+}
