@@ -179,21 +179,18 @@ footer {
     font-size: 14px;
   }
 
-  /* About Me */
-  img {
-    width: 50%;
-    height: 50%;
-    align-items: center;
-  }
-
-.buyButton, a {
-  background-color: #f0f0f0;
-  text-decoration: none;
-  color: rgb(149, 149, 149);
+/* About Me */
+img {
+  width: 50%;
+  height: 50%;
+  align-items: center;
 }
 
 .productImg {
   scale: 85%;
   margin: 0px;
+}
 
+button {
+  font-size: 25px;
 }

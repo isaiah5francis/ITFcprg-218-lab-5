@@ -32,10 +32,25 @@
                 <h2>$10</h2>
                 <p>The essential white tee, in a baggy fit. Pull up and impress the crowd with superior style.</p>
               
-                <button>Buy Now</button>
+                <button id="btn">Buy Now</button>
+                <p id="text"></p>
+    <script>
+         document.getElementById("btn").addEventListener("click", function() {
+        this.style.backgroundColor = "lightgreen";
+        });
+
+        const element = document.getElementById("btn");
+    element.addEventListener("click", myFunction1);
+    function myFunction1() {
+    document.getElementById("text").innerHTML = "Added to Cart!"
+}
+    </script>
                 
-            </div>
+        </div>
     </div>
     </section>
+
+    <footer>© 2024 | 587 VINTAGE | All rights reserved.</footer>
+
 </body>
 </html>
